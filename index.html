@@ -1,0 +1,15 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emotion Meme App</title>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</head>
+<body>
+    <h1>Emotion Meme App</h1>
+    <video id="video" width="640" height="480" autoplay></video>
+    <button onclick="captureImage()">Capture Emotion</button>
+    <div id="result"></div>
+</body>
+</html>
